@@ -1,0 +1,9 @@
+target1 
+
+[hosts]
+ansible_host= 192.168.0.11 
+
+ansible_user=root 
+host_key_checking= False
+ansible_ssh_pass= ~ .ssh/id_rsa 
+ansible_ssh_extra_args = '-o StrictHostKeyChecking=no'
